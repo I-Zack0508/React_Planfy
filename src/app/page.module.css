@@ -10,6 +10,49 @@
   align-items: center;
 }
 
-.banner_title{
-   
+.little_about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about{
+  color: white;
+  background-color: #6381A8;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  padding-left: 20px;
+  border-top-right-radius: 50px ;
+  border-bottom-right-radius: 50px ;
+  height: 100%;
+  width: 100%;
+}
+.about_img{
+margin-left: 50px;
+margin-right: 50px;
+}
+/* 1340px */
+/* 610 */
+@media(max-width: 1069px){
+.little_about{
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.about{
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.imagem{
+  margin-top: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 250px;
+  width: 350px;
+}
 }

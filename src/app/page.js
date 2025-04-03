@@ -1,6 +1,5 @@
 import Image from "next/image";
 import estilos from "./page.module.css";
-import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
@@ -11,12 +10,30 @@ export default function Home() {
       </div>
 
       <div className={estilos.little_about}>
-          <div className={estilos.card_about}>
 
-          </div>
-          <div className={estilos.image_about}>
-            <Image/>
-          </div>
+        <div className={estilos.about}>
+          <h1 className={estilos.about_h1}>Sobre o Planfy</h1>
+          <p className={estilos.about_text}>O Planfy é um  sistema de organização
+            O Planfy é um sistema de organização de tarefas
+            que permite criar lembretes, definir prazos
+            e acompanhar seu progresso. Com uma interface
+            intuitiva, ele contabiliza atividades
+            concluídas e pendentes, ajudando você a
+            gerenciar seu tempo de forma eficiente.
+            Ideal para otimizar sua rotina
+            pessoal, acadêmica ou profissional.</p>
+        </div>
+
+        <div className={estilos.about_img}>
+          <Image
+          className={estilos.imagem}
+            src="/ilustracao01.png"
+            alt="pessoas felizes ao concluir um objetivo"
+            height={350}
+            width={450}
+          />
+        </div>
+
       </div>
 
     </div>
