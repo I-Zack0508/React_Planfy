@@ -1,5 +1,6 @@
 import Image from "next/image";
 import estilos from "./page.module.css";
+import BordasDuplas from "@/components/BordasDuplas";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
 
         <div className={estilos.about_img}>
           <Image
-          className={estilos.imagem}
+            className={estilos.imagem}
             src="/ilustracao01.png"
             alt="pessoas felizes ao concluir um objetivo"
             height={350}
@@ -35,6 +36,10 @@ export default function Home() {
         </div>
 
       </div>
+
+
+      <BordasDuplas />
+
 
     </div>
   );

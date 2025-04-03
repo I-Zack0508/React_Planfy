@@ -1,0 +1,13 @@
+.bordas_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+
+@media(max-width: 667px){
+    .Borda2{
+        display: none;
+    }
+}
